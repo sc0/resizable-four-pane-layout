@@ -1,0 +1,62 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+#root {
+  height: 100%;
+}
+
+/* Wrappers */
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+}
+
+.main-part {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+/* Panes */
+
+.header {
+  height: 150px;
+  background-color: #222;
+  color: white;
+}
+
+.sidebar {
+  width: 30%;
+  border-right: solid 1px darkgray;
+  color: lightgray;
+  flex: none;
+}
+
+.upper-pane {
+  height: 50%;
+  border-bottom: solid 1px darkgray;
+  color: lightgray;
+  flex: none;
+}
+
+.lower-pane {
+  height: 50%;
+  color: lightgray;
+  flex: none;
+}
